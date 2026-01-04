@@ -1,0 +1,5 @@
+sentence-transformers==2.2.2
+chromadb==0.4.22
+pypdf==4.2.0
+pillow==10.3.0
+torch==2.2.0
