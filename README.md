@@ -60,6 +60,12 @@ python main.py search "bridge" --type image
 tree /f data
 ![6.png](https://github.com/xin67809/local-ai-agent/raw/main/6.png)
 
+# 项目配套视频
+1. 功能演示视频：[点击查看](【运行视频】 https://www.bilibili.com/video/BV1LwinBuEvT/?share_source=copy_web&vd_source=a8b8d184250725931b23b2a528d1fb27)
+
+<!-- 可选：嵌入视频播放框（仅支持公开视频，私密视频嵌入后无法播放） -->
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115837902002372&bvid=BV1LwinBuEvT&cid=35192308592&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ## 技术选型
 核心技术
 文本嵌入：SentenceTransformers (paraphrase-albert-small-v2)
@@ -68,4 +74,5 @@ tree /f data
 PDF处理：PyPDF2
 
 图像处理：PIL (Pillow)
+
 
