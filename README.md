@@ -38,27 +38,27 @@
 - 截图1：环境检查
 python --version
 pip list | findstr "sentence-transformers"
-1.png![图像分类运行结果](https://github.com/xin67809/local-ai-agent/raw/main/1.png)
+![1.png](https://github.com/xin67809/local-ai-agent/raw/main/1.png)
 
 - 截图2：PDF批量处理
 python main.py add test_pdfs/
-2.png![alt text](2.png)
+![2.png](https://github.com/xin67809/local-ai-agent/raw/main/2.png)
 
 - 截图3：论文语义搜索
 python main.py search "deep learning" --type paper
-3.png![alt text](3.png)
+![3.png](https://github.com/xin67809/local-ai-agent/raw/main/3.png)
 
 - 截图4：图片批量处理
 python main.py add test_images/ --type image
-4.png![alt text](4.png)
+![4.png](https://github.com/xin67809/local-ai-agent/raw/main/4.png)
 
 - 截图5：图片搜索
 python main.py search "bridge" --type image
-5.png![alt text](5.png)
+![5.png](https://github.com/xin67809/local-ai-agent/raw/main/5.png)
 
 - 截图6：生成的文件结构
 tree /f data
-6.png![alt text](6.png)
+![6.png](https://github.com/xin67809/local-ai-agent/raw/main/6.png)
 
 ## 技术选型
 核心技术
@@ -68,3 +68,4 @@ tree /f data
 PDF处理：PyPDF2
 
 图像处理：PIL (Pillow)
+
