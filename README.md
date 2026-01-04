@@ -38,7 +38,7 @@
 - 截图1：环境检查
 python --version
 pip list | findstr "sentence-transformers"
-1.png![alt text](1.png)
+1.png![图像分类运行结果](https://github.com/xin67809/local-ai-agent/raw/main/1.png)
 
 - 截图2：PDF批量处理
 python main.py add test_pdfs/
@@ -66,4 +66,5 @@ tree /f data
 图像嵌入：CLIP (ViT-B-32)
 向量数据库：ChromaDB
 PDF处理：PyPDF2
+
 图像处理：PIL (Pillow)
